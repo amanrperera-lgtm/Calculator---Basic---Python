@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>  
+    <div class ="container">
+            <h1>Calculator</h1>
+            <div class="button-grid">
+                <button onclick="selectOp('add')">Addition</button>
+                <button onclick="selectOp('subtract')">Subtraction</button>
+                <button onclick="selectOp('multiply')">Multiplication</button>
+                <button onclick="selectOp('divide')">Division</button>
+                <button onclick="selectOp('root')">Nth Root</button>
+                <button onclick="selectOp('exponent')">Exponent</button>
+                <button onclick="selectOp('log')">Logarithm</button>
+                <button onclick="selectOp('clear')">Clear</button>
+                <button onclick="selectOp('graph')">Graph Function</button>
+            </div>
+            <div class="input-area" id="input-area"></div>
+            <div class="result" id="result"></div>
+            <div class="history" id="history"></div>
+        </div>
+        <script src="/static/script.js"></script>
+</body>
+</html>
